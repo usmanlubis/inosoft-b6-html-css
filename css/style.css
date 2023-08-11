@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1em;
+  color: #cb527d;
+}
+
+header{
+  display: inline;
+}
+
+nav {
+  background-color: hsl(0, 0%, 7%);
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 2rem;
+  font-size: 2.3rem;
+}
+
+nav li a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav li a:visited{
+  color: hsl(0, 0%, 100%);
+}
+
+nav li a:hover,
+nav li a:focus {
+  color: hsla(341, 42%, 86%, 0.938);
+  font-weight: bold;
+}
+
+ul {
+  display: inline-block;
+}
+
+.hero {
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.411)), url(../assets/img/backgruound.jpg) no-repeat center / cover;
+}
+
+
+.container {
+  width: 50%;
+  height: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.intro {
+  background-color: hsla(0, 0%, 7%, 0.856);
+  font-size: 1.3rem;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 4px 0 hsla(0, 0%, 100%, 0.753);
+  color: white;
+}
+.intro h2,
+.intro p,
+.intro a {
+  margin: auto;
+  text-align: center;
+}
+
+.intro h2{
+  font-size: 2.5rem;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  margin: 1em 0 2em 0;
+}
+
+.intro a {
+  text-align: center;
+  background-color: #cb527d;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  font-size: 1.5rem;
+  margin-top: 2em;
+  border-radius: 0.5em;
+}
+
+.intro a:hover,
+.intro a:focus {
+  font-weight: bold;
+  box-shadow: 0 0 0 2px hsla(0, 0%, 100%, 0.575);
+}
+
+#layanan h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 1em auto 0.5em;
+}
+.container-layanan {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0  auto;
+}
+
+.card-layanan{
+  flex-basis: 30%;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1em;
+  background-color: hsla(0, 0%, 7%, 0.719);
+  box-shadow: 0 0 4px 3px hsla(0, 0%, 100%, 0.274);
+  border-radius: 0.5em;
+}
+
+.card-layanan:hover,
+.card-layanan:focus {
+  box-shadow: 0 0 0 2px hsla(0, 0%, 100%, 0.575);
+}
+
+.img-layanan{
+  height: 120px;
+  margin: 2em;
+}
+
+.card-layanan a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #cb527d;
+  padding: 0.7em;
+  border-radius: 0.5em;
+  margin: 1em auto;
+}
+
+.card-layanan a:hover,
+.card-layanan a:focus {
+  box-shadow: 0 0 0 3px hsla(0, 0%, 100%, 0.692);
+  font-weight: bold; 
+}
+
+.judul-layanan {
+  margin-top: 1em;
+}
+
+.container-tim-kami {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-tim-kami{
+  flex-basis: 20%;
+  text-align: center;
+  font-size: 2rem;
+  margin: 1em;
+  background-color: hsla(0, 0%, 7%, 0.719);
+  box-shadow: 0 0 4px 3px hsla(0, 0%, 100%, 0.274);
+  border-radius: 0.5em;
+}
+
+.card-tim-kami:hover,
+.card-tim-kami:focus {
+  box-shadow: 0 0 0 2px hsla(0, 0%, 100%, 0.575);
+}
+
+.img-tim {
+  height: 150px;
+  margin: 2em;
+}
+
+.nama-tim {
+  font-weight: bold;
+}
+
+.card-tim-kami a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #cb527d;
+  padding: 0.7em;
+  border-radius: 0.5em;
+  margin: 1em auto;
+}
+
+.card-tim-kami a:hover,
+.card-tim-kami a:focus {
+  box-shadow: 0 0 0 3px hsla(0, 0%, 100%, 0.692);
+  font-weight: bold; 
+}
+
+.judul-tim-kami {
+  margin-top: 1em;
+}
+
+#tim-kami h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 1.5em auto 0.5em;
+}
+
+.button-section{
+  text-align: center;
+  margin: 3em auto;
+}
+.top-button {
+  display: inline-block;
+  background-color: #cb527d;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.3em;
+  box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.575);
+}
+
+.top-button:hover,
+.top-button:focus{
+  box-shadow: 0 0 3px 1px white;
+}
+
+footer {
+  background-color: hsla(0, 0%, 7%, 0.719);
+  font-size: 2rem;
+  padding: 1em;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .intro {
+    font-size: 2rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-layanan {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0  auto;
+  }
+  
+  .card-layanan{
+    width: 70%;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1em;
+    background-color: hsla(0, 0%, 7%, 0.719);
+    box-shadow: 0 0 4px 3px hsla(0, 0%, 100%, 0.274);
+    border-radius: 0.5em;
+  }
+
+  .container-tim-kami {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-tim-kami{
+    width: 70%;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1em;
+    background-color: hsla(0, 0%, 7%, 0.719);
+    box-shadow: 0 0 4px 3px hsla(0, 0%, 100%, 0.274);
+    border-radius: 0.5em;
+  }
+}
